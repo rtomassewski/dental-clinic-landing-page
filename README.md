@@ -41,4 +41,4 @@ This project is a **Responsive Landing Page** designed for dental clinics and in
 * Footer with contact information.
 
 ---
-**Developed by [Seu Nome]**
+**Developed by Rafael Tomassewski**
