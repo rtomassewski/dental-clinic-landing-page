@@ -14,13 +14,17 @@
         <div class="container header-content">
             <h1 class="logo"><i class="fa-solid fa-tooth"></i> Odonto<span>Care</span></h1>
             <nav>
-                <ul class="nav-list">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#especialidades">Especialidades</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#contato" class="btn-nav">Agendar Agora</a></li>
-                </ul>
-            </nav>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <ul class="nav-list">
+        <li><a href="#home" onclick="toggleMenu()">Início</a></li>
+        <li><a href="#especialidades" onclick="toggleMenu()">Especialidades</a></li>
+        <li><a href="#depoimentos" onclick="toggleMenu()">Depoimentos</a></li>
+        <li><a href="#contato" class="btn-nav" onclick="toggleMenu()">Agendar Agora</a></li>
+    </ul>
+</nav>
         </div>
     </header>
 
@@ -126,6 +130,6 @@
     <a href="https://wa.me/seunumeroaqui" class="whatsapp-float" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
-
+<script src="script.js"></script>
 </body>
 </html>

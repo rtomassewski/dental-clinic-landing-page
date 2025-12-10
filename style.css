@@ -190,3 +190,59 @@ footer { background: var(--dark); color: #bbb; padding: 60px 0 20px; }
     .hero-buttons { justify-content: center; }
     .stats { justify-content: center; }
 }
+/* --- ICONE DO MENU (Escondido no Desktop) --- */
+.mobile-menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--secondary);
+}
+
+/* --- RESPONSIVO (MOBILE) --- */
+@media (max-width: 768px) {
+    /* Mostra o ícone do hambúrguer */
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    /* Esconde a lista de links por padrão */
+    .nav-list {
+        display: none; /* Escondido */
+        position: absolute;
+        top: 70px; /* Altura do header */
+        right: 0;
+        width: 100%;
+        background: var(--white);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        z-index: 999;
+    }
+
+    /* Classe que o JavaScript vai adicionar para mostrar o menu */
+    .nav-list.active {
+        display: flex; /* Aparece */
+        animation: fadeDown 0.3s forwards;
+    }
+
+    .nav-list li {
+        margin: 15px 0;
+    }
+
+    /* Ajustes gerais mobile */
+    .hero { text-align: center; padding: 60px 0; }
+    .hero h2 { font-size: 2.2rem; }
+    .hero-buttons { flex-direction: column; gap: 15px; padding: 0 20px; }
+    .stats { justify-content: center; flex-direction: column; gap: 20px; }
+}
+
+@keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Scroll Suave nativo do CSS (Não precisa de JS pra isso) */
+html {
+    scroll-behavior: smooth;
+}
