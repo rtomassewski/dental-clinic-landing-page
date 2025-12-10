@@ -9,6 +9,8 @@
 ### 📖 Sobre o Projeto
 Este projeto é uma **Landing Page Responsiva** desenvolvida para clínicas odontológicas e dentistas autônomos. O objetivo é oferecer uma presença digital profissional, focada em apresentar serviços e facilitar o agendamento de consultas via WhatsApp.
 
+https://rtomassewski.github.io/dental-clinic-landing-page/
+
 ### 🚀 Tecnologias Utilizadas
 * **HTML5:** Estrutura semântica e acessível.
 * **CSS3:** Estilização moderna, Flexbox/Grid e Media Queries.
