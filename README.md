@@ -1,6 +1,6 @@
 # 🦷 Dental Clinic Landing Page
 
-[🇧🇷 Português] | [🇺🇸 English](#-english-version)
+🇧🇷 Português | [🇺🇸 English](#-english-version)
 
 ---
 
